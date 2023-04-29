@@ -4,7 +4,7 @@ export const Button = styled.button`
   font-size: 15px;
   border: 1px solid grey;
   border-radius: 10px;
-  background-color: white;
+  background-color: hotpink;
   cursor: pointer;
   :not(:last-child) {
     margin-right: 10px;
@@ -14,6 +14,6 @@ export const Button = styled.button`
   :hover {
     font-weight: bold;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    background: lightskyblue;
+    background: grey;
   }
 `;
